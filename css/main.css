@@ -252,7 +252,7 @@
 }
 
 .e-section-arrows > img:nth-child(2) {
-  transform: scaleX(-1);
+  transform: rotate(15deg);
 }
 
 .e-section-message {
