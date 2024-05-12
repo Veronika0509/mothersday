@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.pink-section {
+  background: #FFBDDD;
+}
+
+.pink-section p {
+  color: #fff;
+}
+
+/* F-Section */
+
+.f-section {
+  padding-top: 24px;
+}
+
+.f-title {
+  font-size: 30px;
+  color: #E12971 !important;
+  text-align: center;
+}
+
+.f-desc-container {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 52px;
+  margin-top: 14px;
+  position: relative;
+}
+
+.f-desc-container p {
+  font-size: 30px;
+}
+
+.f-desc-container > p:nth-child(2) {
+  max-width: 235px;
+  margin-left: 8px;
+}
+
+.f-desc-container > p:nth-child(2) > span {
+  text-decoration: underline;
+  text-decoration-color: #E12971;
+}
+
+.f-img {
+  position: absolute;
+  top: -5px;
+  right: 47px;
+}
+
+.f-message {
+  position: relative;
+}
+
+.f-message-img {
+  margin-top: 17px;
+}
+
+.f-message > p {
+  font-size: 17px;
+  color: #E94F8B;
+  position: absolute;
+  top: 21px;
+  left: 34px;
+}
+
+.f-message-icon {
+  position: absolute;
+  bottom: 27px;
+  right: 33px;
+}
+
+/* S-Section */
+
+.s-section {
+  position: relative;
+}
+
+.s-section > img {
+  position: absolute;
+  left: 0;
+  top: -23px;
+}
+
+.s-section > p {
+  font-size: 20px;
+  color: #000;
+  margin-left: 95px;
+  margin-top: 19px;
+  margin-bottom: 14px;
+}
+
+.s-section > p > span {
+  color: #FF0707;
+}
+
+/* Th-Section */
+
+.th-section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.th-section > p {
+  font-size: 17px;
+  text-align: center;
+  max-width: 274px;
+  margin: 0 auto;
+}
+
+.th-section > img {
+  display: block;
+  width: 292px;
+  margin: 5px auto 0 auto;
+}
+
+/* Fr-Section */
+
+.fr-section {
+  padding-top: 24px;
+  position: relative;
+}
+
+.fr-section-title {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  max-width: 317px;
+  margin: 0 auto;
+}
+
+.fr-section-hearts {
+  margin-top: -25px;
+}
+
+.fr-section-message-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.fr-section-message {
+  position: relative;
+}
+
+.fr-section-message > p {
+  font-size: 20px;
+  color: #000;
+  position: absolute;
+  top: 9px;
+  left: 30px;
+}
+
+/* Fth-Section */
+
+.fth-section {
+  margin-top: -15px;
+  padding-top: 24px;
+}
+
+.fth-section > p {
+  font-size: 20px;
+  text-align: center;
+  max-width: 298px;
+  margin: 0 auto;
+}
+
+.fth-section > img {
+  display: block;
+  width: 292px;
+  margin: 0 auto;
+}
+
+/* Sth-Section */
+
+.sth-section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.sth-section > p {
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  max-width: 315px;
+  margin: 0 auto;
+}
+
+.sth-section > img {
+  display: block;
+  width: 340px;
+  margin: 20px auto 0 auto;
+}
+
+/* Svth-Section */
+
+.svth-section {
+  padding-top: 24px;
+}
+
+.svth-section > p {
+  font-size: 20px;
+  text-align: center;
+  max-width: 298px;
+  margin: 0 auto;
+}
+
+.svth-section-best {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.svth-section-best-box1 {
+  z-index: 1;
+}
+
+.svth-section-best-img {
+  margin-left: -60px;
+}
+
+.svth-section-best-box2 {
+  transform: scaleX(-1);
+  margin-left: -72px;
+}
+
+/* E-Section */
+
+.e-section {
+  margin-top: -35px;
+  padding-bottom: 24px;
+  background: #fff;
+}
+
+.e-section-arrows {
+  display: flex;
+  width: 286px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.e-section-arrows > img:nth-child(2) {
+  transform: scaleX(-1);
+}
+
+.e-section-message {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  padding: 9px;
+  background: #FFEDF4;
+  border-radius: 18px;
+  max-width: 336px;
+  margin: 0 auto;
+}
+
+/* N-Section */
+
+.n-section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.n-section > p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.n-section > p:nth-child(2) {
+  color: #000;
+  max-width: 318px;
+  margin: 29px auto;
+}
+
+.n-section > p:nth-child(3) {
+  max-width: 298px;
+  margin: 0 auto;
+}
